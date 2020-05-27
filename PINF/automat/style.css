@@ -1,0 +1,116 @@
+﻿body
+{
+    box-sizing: border-box;
+    width: 100%;
+    background-image: url("bg3.jpg");
+}
+
+header
+{
+    height: 100px;
+    text-align: center;
+    vertical-align: middle;
+    border-bottom: 2px solid black;
+    font-size: 200%;
+}
+aside {
+    float: left;
+    width: 24%;
+    padding-left: 10px;
+}
+
+main {
+    min-height: 800px;
+    text-align: center;
+    float: right;
+    width: 75%;
+    border-left: 2px solid black;
+}
+
+footer {
+    height: 100px;
+    text-align: right;
+    padding-right: 10px;
+    clear: both;
+    border-top: 2px solid black;
+}
+#glowna td {
+    width: 33%;
+}
+#glowna {
+    height: 750px;
+}
+#glowna tr:nth-child(even){
+        height: 15%;
+}
+#glowna tr:nth-child(odd) {
+        height: 40%;
+    }
+#tab_pion{
+    text-align: center;
+}
+
+.element{
+    border: 1px solid black;
+    padding: 35px;
+    font-size: 80px;
+    border-radius: 80px;
+    margin: 20px;
+}
+
+.arrow{
+    text-align: center;
+    padding: 10px;
+    display: inline-block;
+    
+}
+
+.arrow span{
+    font-size: 50px;
+    display:contents;
+    margin: 0 auto;
+}
+
+.arrow span, .arrow h3{
+    
+    display: table-row;
+}
+table tr td {
+    padding: 20px;
+    vertical-align: middle;
+}
+.up {
+    transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+}
+.down {
+    transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+}
+td table tr td, td table .arrow{
+    padding: 0;
+}
+.form-group{
+    font-size: 120%;
+}
+#elm_k, #elm_p {
+    display:inline-block;
+    margin-left:20px;
+}
+
+form {
+    width: 70%; 
+    margin-left:25px; 
+    display:inline-block;
+}
+aside .nagl h2{
+    margin-top:10px;
+    margin-bottom:15px;
+}
+aside .nagl h3{
+    margin-bottom:15px;
+}

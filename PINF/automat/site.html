@@ -1,0 +1,146 @@
+﻿<!DOCTYPE html>
+
+<html lang="pl">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Automat skończony</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="js.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+<header>
+    <h1>Automat skończony</h1>
+</header>
+<aside>
+    <div class="text-center nagl">
+        <h2>M=(Q, Σ, δ, s, F)</h2>
+        <h3>Q={q<sub>0</sub>, q<sub>1</sub>, q<sub>2</sub>, q<sub>3</sub>}</h3>
+        <h3 style="display:inline-block">Σ={0, 1}</h3><h3 id="elm_k">F={}</h3><h3 id="elm_p">s={}</h3>
+    </div>
+    <br />
+    <br />
+    <div class="form-group">
+        <h3 style="display:inline-block; font-size: 150%;">s</h3>
+        <form>
+            <select name="el_p" id="el_p" class="custom-select" placeholder="tesd">
+                <option disabled selected value="">Wybierz punkt początkowy</option>
+                <option value="q0">q0</option>
+                <option value="q1">q1</option>
+                <option value="q2">q2</option>
+                <option value="q3">q3</option>
+            </select>
+        </form>
+    </div>
+    <div class="form-group">
+        <h3 style="display:inline-block; font-size: 150%;">F</h3>
+        <form>
+            <select name="el_k" id="el_k" class="custom-select" placeholder="tesd">
+                <option disabled selected value="">Wybierz punkt końcowy</option>
+                <option value="q0">q0</option>
+                <option value="q1">q1</option>
+                <option value="q2">q2</option>
+                <option value="q3">q3</option>
+            </select>
+        </form>
+    </div>
+    <div class="text-center">
+        <div class="btn-group" style="margin: 0 auto;">
+            <button type="button" class="btn btn-primary btn-lg" id="dodaj" onclick="fRClear();fDodaj();">Dodaj</button>
+            <button type="button" class="btn btn-primary btn-lg" id="usun" onclick="fUsun();">Wyczyść</button>
+        </div>
+    </div>
+    <br />
+    <div class="form-group">
+        <label for="inp">Input:</label>
+        <input type="text" class="form-control" id="inp" placeholder="Podaj ciąg wejściowy">
+    </div>
+    <button type="button" class="btn btn-primary btn-lg btn-block" id="start" onclick="fStart();">Start</button>
+</aside>
+<main>
+    <table align="center" id="glowna">
+        <tr>
+            <td>
+                <span class="element" id="q0">q<sub>0</sub></span>
+            </td>
+            <td>
+                <span class="arrow">
+                    <h3 id="q0q1r">1</h3>
+                    <span>&#10230;</span>
+                    <span>&#10229;</span>
+                    <h3 id="q0q1l">1</h3>
+                </span>
+            </td>
+            <td>
+                <span class="element" id="q1">q<sub>1</sub></span>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <table class="tab_pion">
+                    <tr>
+                        <td><h3 id="q0q2d">0</h3></td>
+                        <td>
+                            <span class="arrow">
+                                <span class="up">&#10230;</span>
+                            </span>
+                        </td>
+                        <td>
+                            <span class="arrow">
+                                <span class="down">&#10229;</span>
+                            </span>
+                        </td>
+                        <td><h3 id="q0q2u">0</h3></td>
+                    </tr>
+                </table>
+            </td>
+            <td></td>
+            <td >
+                <table class="tab_pion">
+                    <tr>
+                        <td><h3 id="q1q3d">0</h3></td>
+                        <td>
+                            <span class="arrow">
+                                <span class="up">&#10230;</span>
+                            </span>
+                        </td>
+                        <td>
+                            <span class="arrow">
+                                <span class="down">&#10229;</span>
+                            </span>
+                        </td>
+                        <td><h3 id="q1q3u">0</h3></td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="element" id="q2">q<sub>2</sub></span>
+            </td>
+            <td>
+                <span class="arrow">
+                    <h3 id="q2q3r">1</h3>
+                    <span>&#10230;</span>
+                    <span>&#10229;</span>
+                    <h3 id="q2q3l">1</h3>
+                </span>
+            </td>
+            <td>
+                <span class="element" id="q3">q<sub>3</sub></span>
+            </td>
+        </tr>
+    </table>
+</main>
+<footer>
+    <h5>Bartłomiej Anczok</h5>
+    <h5>307330</h5>
+</footer>
+</body>
+</html>
