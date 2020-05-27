@@ -1,0 +1,9 @@
+﻿Insort c:
+- linia 9 - brak srednika w petli for
+- linia 11 - błędna nazwa zmiennej
+
+Zmienna tmp przyjmowała nieokresloną wartość v[j], zostało to poprawione zamieniając przypisanie na v[i]. Program wychodził poza tablicę w drugiej pętli for, po dodaniu warunku && j >= 0 program działa poprawnie. 
+
+Quicksort.c:
+po pętli while, dodaliśmy linię: if(v[f] > v[s]) f--;,  zapobiega ona złemu przypisaniu wartości w kolejnych 3 liniach
+
