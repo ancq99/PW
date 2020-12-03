@@ -1,0 +1,8 @@
+EkoPolska2020 --> CentMedEkoNowogrodzka [Koszt = 450 * 70.0 = 31500.0 zł]
+BioTech2.0 --> CentMedEkoNowogrodzka [Koszt = 750 * 90.99 = 68242.5 zł]
+BioTech2.0 --> CentMedEko24h [Koszt = 600 * 70.0 = 42000.0 zł]
+EkoPolska2020 --> CentMedEko24h [Koszt = 90 * 80.0 = 7200.0 zł]
+BioTech2.0 --> CentMedEkoCentrala [Koszt = 450 * 70.5 = 31725.0 zł]
+
+
+Sum of costs: 180667.5

@@ -1,0 +1,8 @@
+# Producenci szczepionek (id | nazwa | dzienna produkcja)
+0 | Eko Polska 2020 | 13000
+1 | Name | 234
+# Apteki (id | nazwa | dzienne zapotrzebowanie)
+0 | CentMedEko Centrala | 450
+# Połączenia producentów i aptek (id producenta | id apteki | dzienna maksymalna liczba dostarczanych szczepionek | koszt szczepionki [zł] )
+0 | 0 | 2012 | 70.5
+1 | 0 | 200 | 152.99
