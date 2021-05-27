@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="lab.aisd.util.InputFileReaderTest" tests="14" skipped="0" failures="0" errors="0" timestamp="2021-01-10T17:27:07" hostname="LAPTOP-FHASITR5" time="0.049">
+  <properties/>
+  <testcase name="readMainFileWithIncorrectHospitalIdsInPath()" classname="lab.aisd.util.InputFileReaderTest" time="0.024"/>
+  <testcase name="readMainFile()" classname="lab.aisd.util.InputFileReaderTest" time="0.004"/>
+  <testcase name="readMainFileWithoutPaths()" classname="lab.aisd.util.InputFileReaderTest" time="0.001"/>
+  <testcase name="readMainFileWithIdOutOfBounds()" classname="lab.aisd.util.InputFileReaderTest" time="0.001"/>
+  <testcase name="readMainFileWithEmptyHospitalName()" classname="lab.aisd.util.InputFileReaderTest" time="0.001"/>
+  <testcase name="readMainFileWithNegativeEMptyBedsCount()" classname="lab.aisd.util.InputFileReaderTest" time="0.001"/>
+  <testcase name="readPatientFile()" classname="lab.aisd.util.InputFileReaderTest" time="0.002"/>
+  <testcase name="readMainFileWithHospitalIdNotUnique()" classname="lab.aisd.util.InputFileReaderTest" time="0.001"/>
+  <testcase name="readMainFileWithObjectIdNotUnique()" classname="lab.aisd.util.InputFileReaderTest" time="0.002"/>
+  <testcase name="readMainFileWithIncorrectId()" classname="lab.aisd.util.InputFileReaderTest" time="0.001"/>
+  <testcase name="readMainFileWithMoreEmptyBedsThanBedsInHospital()" classname="lab.aisd.util.InputFileReaderTest" time="0.001"/>
+  <testcase name="readMainFileWithNegativeBedsCount()" classname="lab.aisd.util.InputFileReaderTest" time="0.001"/>
+  <testcase name="readMainFileWithIncorrectHeaderCount()" classname="lab.aisd.util.InputFileReaderTest" time="0.002"/>
+  <testcase name="readMainFileWithDuplicatedIDInPaths()" classname="lab.aisd.util.InputFileReaderTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

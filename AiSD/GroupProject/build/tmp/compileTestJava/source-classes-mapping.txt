@@ -1,0 +1,8 @@
+lab/aisd/algorithm/shortest_path/NearestHospitalFinderTest.java
+ lab.aisd.algorithm.shortest_path.NearestHospitalFinderTest
+lab/aisd/algorithm/shortest_path/FloydWarshallTest.java
+ lab.aisd.algorithm.shortest_path.FloydWarshallTest
+lab/aisd/algorithm/intersections/IntersectionFinderTest.java
+ lab.aisd.algorithm.intersections.IntersectionFinderTest
+lab/aisd/util/InputFileReaderTest.java
+ lab.aisd.util.InputFileReaderTest
