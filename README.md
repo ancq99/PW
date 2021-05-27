@@ -1,2 +1,2 @@
 # PW
-Repo for uniwersity projects
+Repo for university projects
